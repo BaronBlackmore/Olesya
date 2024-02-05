@@ -133,9 +133,6 @@ h1{
 }
 
 .intropic{
-	position: absolute;
-	left: 0;
-	bottom: 0;
 }
 
 .tools{
@@ -151,6 +148,10 @@ justify-content: center;
 .quotes{
 	display: flex;
 	flex-direction: row;
+}
+
+.quote{
+	flex-grow: 1;
 }
 
 .catchquote{
