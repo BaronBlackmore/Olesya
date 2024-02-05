@@ -80,15 +80,21 @@
 body{
  	background-color: #FCFBF7;
  	font-family: "futurabook", Georgia, Serif;
+ 	color: #333;
 }
 
 p{
 	font-size: 18px;
 	line-height: 32px;
 }
+li{
+	font-size: 18px;
+	line-height: 32px;
+}
+
 
 strong{
-	font-family: "futurabook", Georgia, Serif;
+	font-family: "futuraheavy", Georgia, Serif;
 	font-weight: heavy;
 }
 
@@ -97,6 +103,7 @@ h2{
 	line-height: 48px;
 	font-family: "copernicusbold", Georgia, Serif;
 	font-weight: bold;
+	padding-bottom: 1em;
 }
 
 h1{
@@ -104,6 +111,17 @@ h1{
 	line-height: 62px;
 	font-family: "copernicusbold", Georgia, Serif;
 	font-weight: bold;
+	padding-bottom: 1em;
+}
+
+.nav{
+	display: flex;
+	justify-content: center;
+}
+
+.break{
+	height: 1px;
+	background-color: #333;
 }
 
 .segment{
@@ -111,9 +129,22 @@ h1{
 	padding: 100px 0;
 }
 
+.tools{
+display: flex;
+justify-content: center;
+}
+
 .tool{
 /*	padding: 40px 54px 30px 54px;*/
+	background-color: #FDE8B2;
 }
+
+
+.catchquote{
+	background-color: #657E70;
+	color: #FCFBF7;
+}
+
 
 .WideRow{
 	max-width: 1400px;
@@ -129,5 +160,16 @@ h1{
 	background-color: #273C69;
 	border-radius: 72px;
 	color: #F5F5F0;
+	font-weight: heavy;
+	padding: 12px 46px;
+	font-family: "futuraheavy";
+	font-weight: heavy;
+}
+
+.ClearButton{
+	color: #273C69;
+	font-weight: heavy;
+	padding: 12px 46px;
+	font-family: "futuraheavy";
 	font-weight: heavy;
 }
