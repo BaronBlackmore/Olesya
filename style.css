@@ -29,7 +29,7 @@
 		line-height: 1;
 	}
 	ol, ul {
-		list-style: none;
+/*		list-style: none;*/
 	}
 	blockquote, q {
 		quotes: none;
@@ -86,6 +86,7 @@ body{
 p{
 	font-size: 18px;
 	line-height: 32px;
+	padding-bottom: 1em;
 }
 li{
 	font-size: 18px;
@@ -102,7 +103,6 @@ h2{
 	font-size: 24px;
 	line-height: 48px;
 	font-family: "copernicusbold", Georgia, Serif;
-	font-weight: bold;
 	padding-bottom: 1em;
 }
 
@@ -110,7 +110,6 @@ h1{
 	font-size: 36px;
 	line-height: 62px;
 	font-family: "copernicusbold", Georgia, Serif;
-	font-weight: bold;
 	padding-bottom: 1em;
 }
 
@@ -129,6 +128,16 @@ h1{
 	padding: 100px 0;
 }
 
+.intro{
+	max-width: 580px;
+}
+
+.intropic{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
 .tools{
 display: flex;
 justify-content: center;
@@ -139,6 +148,10 @@ justify-content: center;
 	background-color: #FDE8B2;
 }
 
+.quotes{
+	display: flex;
+	flex-direction: row;
+}
 
 .catchquote{
 	background-color: #657E70;
@@ -160,10 +173,9 @@ justify-content: center;
 	background-color: #273C69;
 	border-radius: 72px;
 	color: #F5F5F0;
-	font-weight: heavy;
 	padding: 12px 46px;
 	font-family: "futuraheavy";
-	font-weight: heavy;
+
 }
 
 .ClearButton{
@@ -171,5 +183,5 @@ justify-content: center;
 	font-weight: heavy;
 	padding: 12px 46px;
 	font-family: "futuraheavy";
-	font-weight: heavy;
+
 }
