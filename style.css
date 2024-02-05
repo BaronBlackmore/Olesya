@@ -46,6 +46,59 @@
 
 /*---------------------------end reset------------------------*/
 
+@font-face{
+	font-family: "Futura";
+	src: url('assets/FuturaBook.ttf');
+}
+
+@font-face{
+	font-family: "Copernicus";
+	src: url('assets/CopernicusBold.ttf');
+}
+
+
 body{
-	background-color:blue;
+ background-color: #FCFBF7;
+ font-family: "Futura", Georgia, Serif;
+}
+
+p{
+	font-size: 18px;
+	line-height: 32px;
+}
+
+h2{
+	font-size: 24px;
+	line-height: 48px;
+}
+
+h1{
+	font-size: 36px;
+	line-height: 62px;
+}
+
+.segment{
+	width:100%;
+	padding: 100px 0;
+}
+
+.tool{
+/*	padding: 40px 54px 30px 54px;*/
+}
+
+.WideRow{
+	max-width: 1400px;
+	margin: auto;
+}
+
+.NarrowRow{
+	max-width: 840px;
+	margin: auto;
+}
+
+.BlueButton{
+	background-color: #273C69;
+	border-radius: 72px;
+	color: #F5F5F0;
+	font-weight: heavy;
 }
