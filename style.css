@@ -47,19 +47,39 @@
 /*---------------------------end reset------------------------*/
 
 @font-face{
-	font-family: "Futura";
-	src: url('assets/FuturaBook.ttf');
+    font-family: 'futurabook';
+    src: url('assets/futurabook.ttf') format('ttf'),
+    	 url('assets/futurabook-webfont.woff2') format('woff2'),
+         url('assets/futurabook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face{
-	font-family: "Copernicus";
-	src: url('assets/CopernicusBold.ttf');
+   font-family: 'copernicusbold';
+   	src: url('assets/CopernicusBold.ttf'),
+    	 url('copernicusbold-webfont.woff2') format('woff2'),
+         url('copernicusbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futuraheavy';
+    src: url('assets/futuraheavy.ttf') format('ttf'),
+    	 url('futuraheavy-webfont.woff2') format('woff2'),
+         url('futuraheavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 
 body{
- background-color: #FCFBF7;
- font-family: "Futura", Georgia, Serif;
+ 	background-color: #FCFBF7;
+ 	font-family: "futurabook", Georgia, Serif;
 }
 
 p{
@@ -67,14 +87,23 @@ p{
 	line-height: 32px;
 }
 
+strong{
+	font-family: "futurabook", Georgia, Serif;
+	font-weight: heavy;
+}
+
 h2{
 	font-size: 24px;
 	line-height: 48px;
+	font-family: "copernicusbold", Georgia, Serif;
+	font-weight: bold;
 }
 
 h1{
 	font-size: 36px;
 	line-height: 62px;
+	font-family: "copernicusbold", Georgia, Serif;
+	font-weight: bold;
 }
 
 .segment{
