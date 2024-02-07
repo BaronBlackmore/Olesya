@@ -100,8 +100,9 @@ textarea{
 	padding:0.5em;
 	font-size: 18px;
 	line-height: 32px;
-	font-family: "futurabook", Georgia, Serif;
+/*	font-family: "futurabook", Georgia, Serif;*/
 	height: 300px;
+	border:1px solid grey;
 }
 
 li{
@@ -119,14 +120,14 @@ h2{
 	font-size: 24px;
 	line-height: 48px;
 	font-family: "copernicusbold", Georgia, Serif;
-	padding-bottom: 1em;
+/*	padding-bottom: 1em;*/
 }
 
 h1{
 	font-size: 36px;
 	line-height: 62px;
 	font-family: "copernicusbold", Georgia, Serif;
-	padding-bottom: 1em;
+/*	padding-bottom: 1em;*/
 }
 
 a{
@@ -164,11 +165,11 @@ a{
 
 .tool{
 	display: flex;
-	padding: 40px 54px 30px 54px;
+	padding: 1em
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	gap: 30px;
+	gap: 2em;
 	flex: 1 0 0;
 	background-color: #FDE8B2;
 }
@@ -191,6 +192,7 @@ a{
 	gap: 1em;
 	flex: 1 0 0;
 	align-self: stretch;
+	padding: 0 3em;
 }
 
 .vertbreak{
@@ -198,9 +200,8 @@ a{
 	flex-direction: column;
 	align-items: flex-start;
 	width:1px;
-	flex:1 0 0;
 	align-self: stretch;
-	background-color: ##333333;
+	background-color: #333333;
 }
 
 
@@ -218,6 +219,11 @@ a{
 .NarrowRow{
 	max-width: 840px;
 	margin: auto;
+}
+
+
+.buttonholder{
+	display: flex;
 }
 
 .BlueButton{
@@ -247,6 +253,10 @@ a{
 	text-decoration: none;
 }
 
+.ClearButton a:hover{
+	color: #4972C9;;
+}
+
 .form{
 	display: flex;
 	flex-direction: column;
@@ -256,14 +266,21 @@ a{
 
 @media screen and (max-width:1280px){
 	.NarrowRow{
-		flex-direction: column;
+		padding:0 1em;
 	}
 
 	.WideRow{
+		padding: 0 1em;
+	}
+
+
+	.quotes{
 		flex-direction: column;
 	}
-	.segment{
-		padding:0 1em;
+
+	.tools{
+		flex-direction: column;
+		align-items: center;
 	}
 
 }
