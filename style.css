@@ -94,6 +94,7 @@ input{
 	padding:0.5em;
 	font-size: 18px;
 	line-height: 32px;
+	font-family: "futurabook", Georgia, Serif;
 }
 
 textarea{
@@ -120,18 +121,22 @@ h2{
 	font-size: 24px;
 	line-height: 48px;
 	font-family: "copernicusbold", Georgia, Serif;
-/*	padding-bottom: 1em;*/
+	padding-bottom: 1em;
 }
 
 h1{
 	font-size: 36px;
 	line-height: 62px;
 	font-family: "copernicusbold", Georgia, Serif;
-/*	padding-bottom: 1em;*/
+	padding-bottom: 1em;
 }
 
 a{
 	text-decoration: none;
+}
+
+ul{
+	list-style-position: inside;
 }
 
 .nav{
@@ -153,6 +158,10 @@ a{
 	max-width: 580px;
 }
 
+.intrograph{
+	background-color: #D3E0DD;
+}
+
 .intropic{
 }
 
@@ -165,7 +174,7 @@ a{
 
 .tool{
 	display: flex;
-	padding: 1em
+	padding: 1em 1em 0em 1em;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
@@ -221,6 +230,10 @@ a{
 	margin: auto;
 }
 
+.paddingblock{
+	height:100px;
+}
+
 
 .buttonholder{
 	display: flex;
@@ -230,7 +243,7 @@ a{
 	background-color: #273C69;
 	border-radius: 72px;
 	color: #F5F5F0;
-	padding: 12px 46px;
+	padding: 0.5em 1.5em;
 	font-family: "futuraheavy", sans-serif;
 	font-size: 18px;
 	line-height: 32px;
@@ -244,7 +257,7 @@ a{
 
 .ClearButton{
 /*	font-weight: heavy;*/
-	padding: 12px 46px;
+	padding: 12px 46px;0.5em 1.5em;
 	}
 
 .ClearButton a{
@@ -266,11 +279,11 @@ a{
 
 @media screen and (max-width:1280px){
 	.NarrowRow{
-		padding:0 1em;
+		padding:0 2em;
 	}
 
 	.WideRow{
-		padding: 0 1em;
+		padding: 0 2em;
 	}
 
 
