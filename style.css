@@ -283,19 +283,23 @@ ul{
 
 @media screen and (max-width:1280px){
 	.NarrowRow{
-		padding:0 2em;
+		padding:0 1em;
 	}
 
 	.WideRow{
-		padding: 0 2em;
+		padding: 0 1em;
 	}
 
 	.quote{
-		padding:3em 0;
+		padding:2em 0;
 	}
 
 	.vertbreak{
 		display: none;
+	}
+
+	.ClearButton{
+		padding: 1em;
 	}
 
 	.quotes{
