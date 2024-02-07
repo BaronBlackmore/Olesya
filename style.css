@@ -102,7 +102,6 @@ textarea{
 	font-size: 18px;
 	line-height: 32px;
 /*	font-family: "futurabook", Georgia, Serif;*/
-	height: 300px;
 	border:1px solid grey;
 }
 
@@ -231,7 +230,7 @@ ul{
 }
 
 .paddingblock{
-	height:100px;
+	height:2em;
 }
 
 
@@ -255,10 +254,15 @@ ul{
 	background-color: #4972C9;
 }
 
+.middleflex{
+	display: flex;
+	justify-content: center;
+}
+
 .ClearButton{
 /*	font-weight: heavy;*/
-	padding: 12px 46px;0.5em 1.5em;
-	}
+	padding: 1em 1.5em;
+}
 
 .ClearButton a{
 	color: #273C69;
