@@ -290,6 +290,13 @@ ul{
 		padding: 0 2em;
 	}
 
+	.quote{
+		padding:3em 0;
+	}
+
+	.vertbreak{
+		display: none;
+	}
 
 	.quotes{
 		flex-direction: column;
