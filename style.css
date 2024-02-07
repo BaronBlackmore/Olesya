@@ -7,7 +7,7 @@
 	small, strike, strong, sub, sup, tt, var,
 	b, u, i, center,
 	dl, dt, dd, ol, ul, li,
-	fieldset, form, label, legend,
+	fieldset, form, label, legend, textarea, input
 	table, caption, tbody, tfoot, thead, tr, th, td,
 	article, aside, canvas, details, embed, 
 	figure, figcaption, footer, header, hgroup, 
@@ -100,6 +100,8 @@ textarea{
 	padding:0.5em;
 	font-size: 18px;
 	line-height: 32px;
+	font-family: "futurabook", Georgia, Serif;
+	height: 300px;
 }
 
 li{
@@ -127,6 +129,10 @@ h1{
 	padding-bottom: 1em;
 }
 
+a{
+	text-decoration: none;
+}
+
 .nav{
 	display: flex;
 	justify-content: center;
@@ -152,7 +158,7 @@ h1{
 .tools{
 	display: flex;
 	align-items: flex-start;
-	gap: 50px;
+	gap: 2em;
 	align-self: stretch;
 }
 
@@ -225,9 +231,6 @@ h1{
 	border:none;
 }
 
-.BlueButton {
-	text-decoration: none;
-}
 
 .BlueButton:hover{
 	background-color: #4972C9;
@@ -248,4 +251,19 @@ h1{
 	display: flex;
 	flex-direction: column;
 	gap: 1em;
+}
+
+
+@media screen and (max-width:1280px){
+	.NarrowRow{
+		flex-direction: column;
+	}
+
+	.WideRow{
+		flex-direction: column;
+	}
+	.segment{
+		padding:0 1em;
+	}
+
 }
