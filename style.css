@@ -87,7 +87,16 @@ p{
 	font-size: 18px;
 	line-height: 32px;
 	padding-bottom: 1em;
+	font-family: "futurabook", Georgia, Serif;
 }
+
+input{
+	padding:0.5em;
+	font-size: 18px;
+	line-height: 32px;
+	padding-bottom: 1em;
+}
+
 li{
 	font-size: 18px;
 	line-height: 32px;
@@ -137,7 +146,7 @@ h1{
 
 .tools{
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	gap: 50px;
 	align-self: stretch;
 }
@@ -147,6 +156,7 @@ h1{
 	padding: 40px 54px 30px 54px;
 	justify-content: center;
 	align-items: flex-start;
+	flex-direction: column;
 	gap: 30px;
 	flex: 1 0 0;
 	background-color: #FDE8B2;
@@ -190,15 +200,23 @@ h1{
 
 }
 
-.ClearButton{
-	color: #273C69;
-	font-weight: heavy;
-	padding: 12px 46px;
-	font-family: "futuraheavy", sans-serif;
+.BlueButton a{
+	text-decoration: none;
+}
 
+.ClearButton{
+/*	font-weight: heavy;*/
+	padding: 12px 46px;
+	}
+
+.ClearButton a{
+	color: #273C69;
+	font-family: "futuraheavy", sans-serif;
+	text-decoration: none;
 }
 
 .form{
 	display: flex;
 	flex-direction: column;
+	gap: 1em;
 }
