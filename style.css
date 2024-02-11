@@ -81,6 +81,7 @@ body{
  	background-color: #FCFBF7;
  	font-family: "futurabook", Georgia, Serif;
  	color: #333;
+ 	scroll-behavior: smooth;
 }
 
 p{
@@ -141,6 +142,9 @@ ul{
 .nav{
 	display: flex;
 	justify-content: center;
+	position: fixed;
+  width: 100%;
+  background-color: #FCFBF7;
 }
 
 .break{
@@ -180,6 +184,7 @@ ul{
 	gap: 2em;
 	flex: 1 0 0;
 	background-color: #FDE8B2;
+	text-align: center;
 }
 
 .tool img{
@@ -214,7 +219,7 @@ ul{
 
 
 .catchquote{
-	background-color: #657E70;
+	background-color: #4d7d5e;
 	color: #FCFBF7;
 }
 
@@ -239,7 +244,7 @@ ul{
 }
 
 .BlueButton{
-	background-color: #273C69;
+	background-color: #4d7d5e;
 	border-radius: 72px;
 	color: #F5F5F0;
 	padding: 0.5em 1.5em;
@@ -251,7 +256,7 @@ ul{
 
 
 .BlueButton:hover{
-	background-color: #4972C9;
+	background-color: #2e5e46;
 }
 
 .middleflex{
@@ -265,13 +270,13 @@ ul{
 }
 
 .ClearButton a{
-	color: #273C69;
+	color: #4d7d5e;
 	font-family: "futuraheavy", sans-serif;
 	text-decoration: none;
 }
 
 .ClearButton a:hover{
-	color: #4972C9;;
+	color: #2e5e46;
 }
 
 .form{
