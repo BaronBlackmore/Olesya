@@ -171,7 +171,8 @@ ul{
 }
 
 .tools{
-	display: flex;
+	display: grid;
+	grid-template-columns: auto auto auto;
 	align-items: flex-start;
 	gap: 2em;
 	align-self: stretch;
@@ -188,6 +189,7 @@ ul{
 	flex: 1 0 0;
 	border: 1px solid #333;
 	text-align: center;
+	height: 100%;
 }
 
 .tool img{
@@ -289,7 +291,7 @@ ul{
 }
 
 
-@media screen and (max-width:1280px){
+@media screen and (max-width:1400px) and (min-width:841px){
 	.NarrowRow{
 		padding:0 1em;
 	}
@@ -302,25 +304,35 @@ ul{
 		padding:2em 0;
 	}
 
-	.vertbreak{
-		display: none;
-	}
+
 
 	.ClearButton{
 		padding: 1em;
 	}
 
-	.quotes{
-		flex-direction: column;
-	}
+
 
 	.tools{
 		flex-direction: column;
 		align-items: center;
-		display: inline-grid;
+		grid-template-columns: auto;
+		width: 100%;
 	}
 	.tool{
 /*		width: 100%;*/
 	}
 
+}
+
+@media screen and (max-width: 840px){
+	
+	.quotes{
+		flex-direction: column;
+		max-width: 840px;
+    	margin: auto;
+	}
+	
+	.vertbreak{
+		display: none;
+	}
 }
