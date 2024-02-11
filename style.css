@@ -308,11 +308,10 @@ ul{
 		padding: 1em;
 	}
 
-	.tools{
+	.quotes{
 		flex-direction: column;
-		align-items: center;
-		grid-template-columns: auto;
-		width: 100%;
+		max-width: 840px;
+    	margin: auto;
 	}
 
 
@@ -321,13 +320,13 @@ ul{
 @media screen and (max-width: 840px){
 	
 
-
-
-	.quotes{
+	.tools{
 		flex-direction: column;
-		max-width: 840px;
-    	margin: auto;
+		align-items: center;
+		grid-template-columns: auto;
+		width: 100%;
 	}
+	
 	
 	.vertbreak{
 		display: none;
