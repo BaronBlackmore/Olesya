@@ -318,9 +318,7 @@ ul{
 		grid-template-columns: auto;
 		width: 100%;
 	}
-	.tool{
-/*		width: 100%;*/
-	}
+
 
 }
 
@@ -334,5 +332,11 @@ ul{
 	
 	.vertbreak{
 		display: none;
+	}
+	.tools{
+		flex-direction: column;
+		align-items: center;
+		grid-template-columns: auto;
+		width: 100%;
 	}
 }
