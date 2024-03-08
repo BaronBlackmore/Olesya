@@ -172,7 +172,7 @@ ul{
 
 .tools{
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: 50% 50%;
 	align-items: flex-start;
 	gap: 2em;
 	align-self: stretch;
@@ -180,16 +180,13 @@ ul{
 }
 
 .tool{
-	display: flex;
-	padding: 0em 1em 0em 1em;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	gap: 2em;
-	flex: 1 0 0;
 	border: 1px solid #333;
 	text-align: center;
 	height: 100%;
+}
+
+.tool-content{
+	padding:1em
 }
 
 .tool img{
