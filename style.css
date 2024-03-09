@@ -168,16 +168,23 @@ video{
 }
 
 .intro h2{
-	padding-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 2em;
 }
 
 .intrograph{
-	background-color: #D3E0DD;
-	padding-top:9em;
+	background-color: #2e5e46;
+	height: 730px;
 }
 
 .intropic{
+background-image: url(assets/parkpic.jpg);
+box-shadow: 0 0 8px 8px white inset;
+width: 1913px;
+height: 1096px;
 }
+
+
 
 .tools{
 	display: grid;
@@ -262,6 +269,17 @@ video{
 	background-color: #4d7d5e;
 	border-radius: 72px;
 	color: #F5F5F0;
+	padding: 0.5em 1.5em;
+	font-family: "futuraheavy", sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+	border:none;
+}
+
+.WhiteButton{
+	background-color: #fff;
+	border-radius: 72px;
+	color: #4d7d5e;
 	padding: 0.5em 1.5em;
 	font-family: "futuraheavy", sans-serif;
 	font-size: 18px;
