@@ -172,12 +172,21 @@ video{
 	padding-bottom: 2em;
 }
 
+.introRow{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 .intrograph{
 	background-color: #2e5e46;
 	height: 730px;
 }
 
 .intropic{
+	position: absolute;
+	top:50%;
+	left:50%;
 background-image: url(assets/parkpic.jpg);
 box-shadow: 0 0 8px 8px white inset;
 width: 1913px;
