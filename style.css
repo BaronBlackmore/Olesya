@@ -167,6 +167,10 @@ video{
 	max-width: 580px;
 }
 
+.intro h2{
+	padding-bottom: 0;
+}
+
 .intrograph{
 	background-color: #D3E0DD;
 	padding-top:9em;
@@ -199,7 +203,7 @@ video{
 }
 
 .tool-content h2{
-	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 
 .quotes{
