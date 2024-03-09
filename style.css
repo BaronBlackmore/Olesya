@@ -156,7 +156,7 @@ ul{
 
 .segment{
 	width:100%;
-	padding: 100px 0;
+	padding: 6em 0;
 }
 
 .intro{
@@ -165,6 +165,7 @@ ul{
 
 .intrograph{
 	background-color: #D3E0DD;
+	padding-top:9em;
 }
 
 .intropic{
@@ -172,25 +173,29 @@ ul{
 
 .tools{
 	display: grid;
-	grid-template-columns: 50% 50%;
-	align-items: flex-start;
-	gap: 2em;
-	align-self: stretch;
-	padding:2em 0;
+    grid-template-columns: 50% 50%;
+    gap: 1em;
+    align-self: stretch;
+    padding: 2em 0 4em 0;
+	width: 100%;
 }
 
 .tool{
-	border: 1px solid #333;
 	text-align: center;
-	height: 100%;
 }
 
 .tool-content{
-	padding:1em
+	text-align: center;
+	border: 1px solid #333;
+	padding: 1em 3em;
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+	justify-content: center;
 }
 
-.tool img{
-	width:100%;
+.tool-content h2{
+	padding-top: 0.5em;
 }
 
 .quotes{
