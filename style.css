@@ -149,8 +149,9 @@ video{
 	display: flex;
 	justify-content: center;
 	position: fixed;
-  width: 100%;
-  background-color: #FCFBF7;
+  	width: 100%;
+  	background-color: #FCFBF7;
+  	z-index: 2;
 }
 
 .break{
@@ -165,6 +166,10 @@ video{
 
 .intro{
 	max-width: 580px;
+	max-width: 580px;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
 }
 
 .intro h2{
@@ -172,25 +177,37 @@ video{
 	padding-bottom: 2em;
 }
 
+.introRight{
+  width: 500px;
+  z-index: 0;
+  align-items: center;
+}
+
+.introLeft{
+	z-index: 1;
+	background-color: #2e5e46;
+	box-shadow: 0 0 50px 50px #2e5e46;
+}
+
 .introRow{
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+  	flex-direction: row;
+  	justify-content: space-between;
+  	height: 100%;
 }
 
 .intrograph{
 	background-color: #2e5e46;
 	height: 730px;
+	overflow: hidden;
 }
 
 .intropic{
-	position: absolute;
-	top:50%;
-	left:50%;
-background-image: url(assets/parkpic.jpg);
-box-shadow: 0 0 8px 8px white inset;
-width: 1913px;
-height: 1096px;
+	background-image: url(assets/parkpic.jpg);
+	background-position: center;
+	box-shadow: 200px 0px 100px -50px #2e5e46 inset, -200px 0px 100px -50px #2e5e46 inset;
+	width: 1913px;
+	height: 1096px;
 }
 
 
