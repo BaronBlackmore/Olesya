@@ -141,6 +141,10 @@ ul{
 	padding-bottom: 1em;
 }
 
+video{
+	padding: 2em 0;
+}
+
 .nav{
 	display: flex;
 	justify-content: center;
@@ -173,7 +177,7 @@ ul{
 
 .tools{
 	display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 49% 49%;
     gap: 1em;
     align-self: stretch;
     padding: 2em 0 4em 0;
