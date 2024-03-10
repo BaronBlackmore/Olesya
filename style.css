@@ -185,9 +185,9 @@ video{
 
 .introLeft{
 	z-index: 1;
-	background-color: #2e5e46;
-	box-shadow: 0 0 80px 100px #2e5e46;
-	color: white;
+	background-color: #4d7d5e;
+	box-shadow: 0 0 80px 100px #4d7d5e;
+	color: #FCFBF7;
 }
 
 .introRow{
@@ -198,7 +198,7 @@ video{
 }
 
 .intrograph{
-	background-color: #2e5e46;
+	background-color: #4d7d5e;
 	height: 730px;
 	overflow: hidden;
 }
@@ -206,7 +206,7 @@ video{
 .intropic{
 	background-image: url(assets/parkpic.jpg);
 	background-position: center;
-	box-shadow: 200px 0px 100px -50px #2e5e46 inset, -200px 0px 100px -50px #2e5e46 inset;
+	box-shadow: 200px 0px 100px -50px #4d7d5e inset, -200px 0px 100px -50px #4d7d5e inset;
 	width: 1913px;
 	height: 1096px;
 }
@@ -304,7 +304,7 @@ video{
 }
 
 .WhiteButton{
-	background-color: #fff;
+	background-color: #FCFBF7;
 	border-radius: 72px;
 	color: #4d7d5e;
 	padding: 0.5em 1.5em;
@@ -316,11 +316,11 @@ video{
 
 
 .BlueButton:hover{
-	background-color: #2e5e46;
+	background-color: #4d7d5e;
 }
 
 .WhiteButton:hover{
-	background-color: #FCFBF7;
+	background-color: #E0DED6;
 }
 
 .middleflex{
@@ -340,7 +340,7 @@ video{
 }
 
 .ClearButton a:hover{
-	color: #2e5e46;
+	color: #4d7d5e;
 }
 
 .form{
