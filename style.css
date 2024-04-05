@@ -214,26 +214,28 @@ video{
 
 
 .tools{
-	display: grid;
-    grid-template-columns: 49% 49%;
-    gap: 1em;
-    align-self: stretch;
-    padding: 2em 0 4em 0;
-	width: 100%;
+	display: inline-flex;
+  grid-template-columns: 49% 49%;
+  gap: 1em;
+  align-self: stretch;
+  padding: 2em 0 4em 0;
+  width: 100%;
 }
 
 .tool{
 	text-align: center;
+  width: 50%;
 }
 
 .tool-content{
-	text-align: center;
-	border: 1px solid #333;
-	padding: 1em 3em;
-	display: flex;
-	flex-direction: column;
-	height: 200px;
-	justify-content: center;
+text-align: center;
+  border: 1px solid #333;
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
+  height: 20em;
+  justify-content: center;
+}
 }
 
 .tool-content h2{
@@ -384,6 +386,14 @@ video{
 		align-items: center;
 		grid-template-columns: auto;
 		width: 100%;
+	}
+
+	.tool{
+		width:100%;
+	}
+
+	.tool-content{
+		height: auto;
 	}
 	
 	
